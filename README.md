@@ -17,8 +17,8 @@ For the climate change analysis portion, data from three Russian weather station
 ## Methodology
 
 ### Data Preprocessing
-- Removal of missing values using the Dropna function
-- Creation of daily, weekly, and monthly average temperature datasets
+- Cleaning data by removal of missing values and filtering inconsistent data
+- Data transformation and reduction via batches from daily to weekly and monthly average temperature datasets
 - Data alignment across multiple weather stations for comparative analysis
 - Temporal windowing for sequential prediction
 
@@ -32,11 +32,9 @@ All models utilize ReLU and hyperbolic tangent (tanh) activation functions with 
 
 ### Key Experiments
 1. Comparison of neural network complexity (48 vs. 384 neurons) for next-day predictions
-2. Analysis of window size impact (1-week vs. 1-year) on one-year forecasting accuracy
-3. Evaluation of monthly average data with various window sizes for 1-month and 1-year projections
-4. Testing boundary conditions with an extremely large 10-year window size
-5. Multi-variable prediction using a comprehensive data compilation
-6. Multi-station analysis to investigate potential global warming trends
+2. Testing boundary conditions with window size impact (1-week vs. 1-year) on one-year forecasting accuracy
+3. Multi-variable prediction using a comprehensive data compilation
+4. Multi-station analysis to investigate potential global warming trends
 
 ## Key Findings
 
@@ -61,25 +59,8 @@ All models utilize ReLU and hyperbolic tangent (tanh) activation functions with 
 - NumPy, Pandas, Matplotlib
 - Jupyter Notebook
 
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/weather-prediction-lstm.git
-
-# Navigate to the project directory
-cd weather-prediction-lstm
-
-# Install required packages
-pip install -r requirements.txt
-```
-
-### Running the Notebook
-```bash
-jupyter notebook "mini project 20119017.ipynb"
-```
-
 ## File Structure
-- `mini project 20119017.ipynb`: Main Jupyter notebook containing the analysis and models
+- `weather_prediction.ipynb`: Main Jupyter notebook containing the analysis and models
 - `PHAS0056_Mini_project_report__20119017.pdf`: Detailed research report with methodology and findings
 - `data/`: Directory containing raw and processed data (not included in repository due to size)
 - `models/`: Saved model weights and architectures
