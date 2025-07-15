@@ -64,7 +64,7 @@ All models utilize ReLU and hyperbolic tangent (tanh) activation functions with 
 
 ## File Structure
 - `weather_prediction.ipynb`: Main Jupyter notebook containing the analysis and models
-- `PHAS0056_Mini_project_report__20119017.pdf`: Detailed research report with methodology and findings
+- `Reference_Images`: Research findings summarised from .ipynb file
 - `data/`: Directory containing raw and processed data (not included in repository due to size)
 - `models/`: Saved model weights and architectures
 - `requirements.txt`: List of required Python packages
