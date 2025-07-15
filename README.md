@@ -15,7 +15,7 @@ The dataset includes:
 For the climate change analysis portion, data from three Russian weather stations (Tura, Viljujsk, and Tompo) was combined to examine long-term temperature trends.
 
 <img width="1274" height="754" alt="1-day prediction average temp" src="https://github.com/user-attachments/assets/1a26c71d-4cba-43aa-b7cf-0ed0f3ec7326" />
-
+For more images, please refer to the Reference_Images folder
 
 ## Methodology
 
