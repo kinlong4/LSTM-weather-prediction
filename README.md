@@ -54,14 +54,6 @@ All models utilize ReLU and hyperbolic tangent (tanh) activation functions with 
 - Precipitation forecasting requires more complex models that incorporate additional atmospheric variables
 - LSTM models can complement traditional numerical weather prediction (NWP) methods by reducing computational requirements
 
-## How to Use This Repository
-
-### Prerequisites
-- Python 3.6+
-- TensorFlow 2.x
-- NumPy, Pandas, Matplotlib
-- Jupyter Notebook
-
 ## File Structure
 - `weather_prediction.ipynb`: Main Jupyter notebook containing the analysis and models
 - `Reference_Images/`: Research findings summarised from .ipynb file
