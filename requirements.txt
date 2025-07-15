@@ -1,0 +1,9 @@
+### Prerequisites (own version)
+- Python 3.12.3
+- NumPy 1.26.4
+- Pandas 2.2.2
+- Matplotlib 3.8.4
+- SciPy 1.15.2
+- TensorFlow 2.19.0
+- Keras 3.10.0
+- tqdm 4.66.4
